@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 20px;
+  
+}
+  
+
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.heading-bottom {
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+	width: 100%;
+	text-align: center;
+}
+
