@@ -34,3 +34,5 @@ export default function Counter() {
   )
 }
 ```
+
+Link - https://shubhamd99.github.io/react-typescript-contexthooks/
