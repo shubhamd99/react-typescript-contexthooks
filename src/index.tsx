@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import App from './App';
 import { StoreProvider } from './store/Store';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,9 +8,9 @@ import 'tachyons';
 
 ReactDOM.render(
 <StoreProvider>
-    <BrowserRouter>
+    <Router>
         <App />
-    </BrowserRouter>
+    </Router>
 </StoreProvider>, document.getElementById('root'));
 
 
